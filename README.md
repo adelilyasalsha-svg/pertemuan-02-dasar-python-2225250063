@@ -7,51 +7,50 @@
 - Kelas: 3B
 - Mata Kuliah: Algoritma dan Pemrograman
 
-## Tujuan Repositori
+## Tujuan Repository
 
-Repositori ini berisi hasil latihan dan tugas pada Pertemuan 02 mata kuliah Algoritma dan Pemrograman. Materi yang dipraktikkan meliputi variabel, konstanta, tipe data, input-output, operator aritmetika, konversi tipe data, dan penggunaan f-string dalam Python.
+Repository ini berisi hasil latihan, tugas, dan kuis pada Pertemuan 02 mata kuliah Algoritma dan Pemrograman.
 
-Selain itu, repositori ini digunakan untuk mendokumentasikan proses pembuatan, pengujian, dan pengumpulan program menggunakan Git dan GitHub.
+Materi yang dipraktikkan meliputi variabel, konstanta, tipe data, input-output, operator aritmetika, konversi tipe data, dan penggunaan f-string dalam Python.
 
-## Daftar Berkas
+Repository ini juga digunakan untuk mendokumentasikan proses pengerjaan dan pengumpulan tugas menggunakan Git dan GitHub.
 
-### Folder latihan
+## Struktur Folder
 
-| Berkas | Fungsi |
+### Folder Kuis
+
+Folder `Kuis` berisi file kuis yang dikerjakan pada Pertemuan 02.
+
+| Berkas | Keterangan |
 |---|---|
-| `01_biodata.py` | Menerima nama, NIM, kelas, dan tahun lahir, kemudian menghitung perkiraan umur dan menampilkan biodata. |
-| `02_persegi_panjang.py` | Menghitung luas dan keliling persegi panjang berdasarkan panjang dan lebar. |
-| `03_konversi_suhu.py` | Mengubah suhu Celsius menjadi Fahrenheit dan Kelvin. |
-| `04_nilai_akhir.py` | Menghitung nilai akhir berdasarkan nilai tugas, UTS, dan UAS dengan bobot tertentu. |
+| `kuis 1.docx` | Berisi hasil pengerjaan Kuis 1 |
 
-### Folder tugas
+### Folder Latihan
 
-| Berkas | Fungsi |
+Folder `Latihan` berisi program-program latihan dasar Python.
+
+| Berkas | Keterangan |
 |---|---|
-| `kalkulator_koordinat.py` | Menghitung perubahan koordinat, jarak antara dua titik, dan titik tengah dari dua titik. |
+| `01_biodata.py` | Program untuk memasukkan dan menampilkan data biodata |
+| `02_persegi_panjang.py` | Program untuk menghitung luas dan keliling persegi panjang |
+| `03_konversi_suhu.py` | Program untuk melakukan konversi suhu |
+| `04_nilai_akhir.py` | Program untuk menghitung nilai akhir berdasarkan nilai tugas, UTS, dan UAS |
 
-## Cara Menjalankan
+### Folder Tugas
 
-Program dapat dijalankan melalui terminal VS Code dengan perintah berikut:
+Folder `Tugas` berisi program tugas utama pada Pertemuan 02.
+
+| Berkas | Keterangan |
+|---|---|
+| `kalkulator_koordinat.py` | Program untuk menghitung jarak dan titik tengah antara dua titik koordinat |
+
+### Berkas .gitignore
+
+Berkas `.gitignore` digunakan untuk menentukan file atau folder yang tidak perlu disimpan atau dilacak oleh Git, seperti file cache Python dan pengaturan khusus VS Code.
+
+## Cara Menjalankan Program
+
+Program Python dapat dijalankan melalui terminal VS Code dengan perintah:
 
 ```bash
-python latihan/01_biodata.py
-python latihan/02_persegi_panjang.py
-python latihan/03_konversi_suhu.py
-python latihan/04_nilai_akhir.py
-python tugas/kalkulator_koordinat.py
-## Hasil Pengujian Tugas (Test Case)
-
-| Kasus | Titik A | Titik B | Jarak (Target) | Titik Tengah (Target) |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | (0, 0) | (3, 4) | 5.00 | (1.50, 2.00) |
-| 2 | (-2, 1) | (4, 1) | 6.00 | (1.00, 1.00) |
-| 3 | (2.5, -1) | (2.5, 3) | 4.00 | (2.50, 1.00) |
-
-## Refleksi
-- Konsep yang paling saya pahami adalah penggunaan variabel dan f-string karena memudahkan format keluaran data.
-- Kesalahan yang saya temukan adalah tipe data input yang masih string, dan saya memperbaikinya menggunakan fungsi float().
-- Pada pertemuan berikutnya saya ingin lebih memahami penggunaan percabangan (if-else).
-
-## Sumber
-- Modul Praktikum Algoritma dan Pemrograman Pertemuan 02 - Dr. Aan Hendrayana, S.Si., M.Pd.
+python Latihan/01_biodata.py
