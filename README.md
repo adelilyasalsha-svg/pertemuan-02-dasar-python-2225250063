@@ -16,6 +16,14 @@ Pada pertemuan ini dipelajari dasar-dasar Python, yaitu variabel, konstanta, tip
 Repository ini juga digunakan untuk mendokumentasikan proses pengerjaan, pengujian program, dan pengumpulan tugas melalui GitHub.
 
 ## Struktur dan Fungsi Berkas
+### Folder Kuis
+
+Folder `Kuis` berisi berkas kuis yang dikerjakan pada Pertemuan 02.
+
+| Berkas | Keterangan |
+|---|---|
+| `kuis 1.docx` | Berisi hasil pengerjaan Kuis 1 pada Pertemuan 02. |
+
 
 ### Folder Latihan
 
